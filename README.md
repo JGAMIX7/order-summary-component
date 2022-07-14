@@ -5,4 +5,4 @@ Technologies used :
 - HTML
 - CSS (flexbox)
 
-Live demo : jgamix7.github.io/order-summary-component/
+Live demo : https://jgamix7.github.io/order-summary-component/
