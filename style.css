@@ -17,7 +17,6 @@
 }
 
 body{
-   background: url(images/pattern-background-desktop.svg) no-repeat;
    background-color: var(--pale-blue);
    font-family: 'Red Hat Display', sans-serif;
    font-size: 16px;
@@ -26,6 +25,7 @@ body{
 a{text-decoration: none;}
 
 .container{
+   background: url(images/pattern-background-desktop.svg) no-repeat;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -115,4 +115,45 @@ a{text-decoration: none;}
 .card .card-content .cancel-link{
    color: var(--desaturated-blue);
    font-weight: 700;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 425px) {
+   .container{
+      background: url(images/pattern-background-mobile.svg) no-repeat;
+   }
+}
+
+@media screen and (max-width: 375px) {
+   .card{
+      max-width: 320px;
+      margin:  0px 10px;
+   }
+
+   .card-img{
+      height: 150px;
+   }
+
+   .card .card-content{
+      padding: 16px;
+   }
+
+   .card .card-content .card-text{
+      margin: 10px 16px;
+   }
+
+   .card .card-content .card-btn-payment{
+      margin: 16px 0;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   body{
+      font-size: 15px;
+   }
+   .card{
+      margin: 0 10px;
+   }
 }
