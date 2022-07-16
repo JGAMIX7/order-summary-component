@@ -119,14 +119,11 @@ a{text-decoration: none;}
 
 
 /* RESPONSIVE */
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
    .container{
       background: url(images/pattern-background-mobile.svg) no-repeat;
    }
-}
 
-@media screen and (max-width: 375px) {
    .card{
       max-width: 320px;
       margin:  0px 10px;
