@@ -2,7 +2,7 @@
 
 /* 500, 700, 900 */
 
-:root{
+:root {
    --pale-blue: hsl(225, 100%, 94%);
    --bright-blue: hsl(245, 75%, 52%);
    --very-pale-blue: hsl(225, 100%, 98%);
@@ -10,20 +10,20 @@
    --dark-blue: hsl(223, 47%, 23%);
 }
 
-*{
+* {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
 }
 
-body{
+body {
    background-color: var(--pale-blue);
    font-family: 'Red Hat Display', sans-serif;
 }
 
-a{text-decoration: none;}
+a {text-decoration: none;}
 
-.container{
+.container {
    background: url(images/pattern-background-desktop.svg) no-repeat;
    display: flex;
    justify-content: center;
@@ -31,7 +31,7 @@ a{text-decoration: none;}
    min-height: 100vh;
 }
 
-.card{
+.card {
    max-width: 350px;
    background-color: #fff;
    overflow: hidden;
@@ -39,17 +39,17 @@ a{text-decoration: none;}
    margin: 30px 20px;
 }
 
-.card-img{
+.card-img {
    height: 170px;
 }
 
-.card .card-img img{
+.card .card-img img {
    display: block;
    width: 100%;
    height: 100%;
 }
 
-.card .card-content{
+.card .card-content {
    padding: 25px;
    display: flex;
    justify-content: center;
@@ -58,19 +58,19 @@ a{text-decoration: none;}
    flex-direction: column;
 }
 
-.card .card-content .card-title{
+.card .card-content .card-title {
    font-size: 23px;
    font-weight: 900;
    color: var(--dark-blue);
 }
 
-.card .card-content .card-text{
+.card .card-content .card-text {
    color: var(--desaturated-blue);
    line-height: 25px;
    margin: 20px 16px;
 }
 
-.card .card-content .card-plan{
+.card .card-content .card-plan {
    width: 100%;
    background-color: var(--very-pale-blue);
    display: flex;
@@ -80,27 +80,27 @@ a{text-decoration: none;}
    border-radius: 20px;
 }
 
-.card .card-content .card-plan .card-annual-plan{
+.card .card-content .card-plan .card-annual-plan {
    display: flex;
    align-items: center;
    gap: 20px;
 }
 
-.card .card-content .card-plan .card-annual-plan .plan h4{
+.card .card-content .card-plan .card-annual-plan .plan h4 {
    font-weight: 900;
    color: var(--dark-blue);
 }
-.card .card-content .card-plan .card-annual-plan .plan p{
+.card .card-content .card-plan .card-annual-plan .plan p {
    color: var(--desaturated-blue);
 }
 
-.card .card-content .card-plan .change-link{
+.card .card-content .card-plan .change-link {
    text-decoration: underline;
    font-weight: 700;
    color: var(--bright-blue);
 }
 
-.card .card-content .card-btn-payment{
+.card .card-content .card-btn-payment {
    color: #fff;
    font-weight: 700;
    font-size: 18px;
@@ -111,7 +111,7 @@ a{text-decoration: none;}
    background-color: var(--bright-blue);
 }
 
-.card .card-content .cancel-link{
+.card .card-content .cancel-link {
    color: var(--desaturated-blue);
    font-weight: 700;
 }
@@ -123,37 +123,37 @@ a{text-decoration: none;}
       background: url(images/pattern-background-mobile.svg) no-repeat;
    }
 
-   .card{
+   .card {
       max-width: 320px;
       margin:  0px 10px;
    }
 
-   .card-img{
+   .card-img {
       height: 150px;
    }
 
-   .card .card-content{
+   .card .card-content {
       padding: 16px;
    }
 
-   .card .card-content .card-text{
+   .card .card-content .card-text {
       margin: 10px 16px;
    }
 
-   .card .card-content .card-btn-payment{
+   .card .card-content .card-btn-payment {
       margin: 16px 0;
    }
 }
 
 @media screen and (max-width: 320px) {
-   body{
+   body {
       font-size: 15px;
    }
-   .card{
+   .card {
       margin: 0 10px;
    }
 
-   .card .card-content .card-btn-payment{
+   .card .card-content .card-btn-payment {
       font-size: 17px;
    }
 }
